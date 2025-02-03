@@ -2,8 +2,8 @@
  
 # Check if the correct number of arguments is provided 
  
-read -p "IS THE HASH FROM /etc/shadow (Y/N) = " rudhra 
-if [[ "$rudhra" == "N" ]]; then 
+read -p "IS THE HASH FROM /etc/shadow (Y/N) = " abdul
+if [[ "$abdul" == "N" ]]; then 
 read -p "ENTER THE PASSWORD HASH = " password_hash hashid $password_hash 
 read -p "ENTER THE WORDLIST FILE IN WHICH PASSWORD EXIST = " wordlist 
  
